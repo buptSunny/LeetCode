@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c8b23277-05c3-4314-905b-753812450a32" name="Default Changelist" comment="" />
+    <list default="true" id="c8b23277-05c3-4314-905b-753812450a32" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/practise/singleton/Singleton1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practise/singleton/Singleton2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practise/singleton/Singleton3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practise/singleton/Singleton4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +38,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1TSYELCczKRcWUhQgtL25ZdvbPB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
@@ -198,11 +210,29 @@
       <workItem from="1580569969386" duration="2799000" />
       <workItem from="1580624554798" duration="2918000" />
       <workItem from="1580697781660" duration="9505000" />
+      <workItem from="1583832741267" duration="1976000" />
+      <workItem from="1583888532713" duration="43000" />
+      <workItem from="1583936516586" duration="456000" />
+      <workItem from="1584182121814" duration="483000" />
+      <workItem from="1584323159507" duration="3442000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
