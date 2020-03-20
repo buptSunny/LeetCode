@@ -92,7 +92,6 @@ public class PreTraversal {
                 System.out.println(root.value);
                 root = root.right;
             }
-
         }
     }
 

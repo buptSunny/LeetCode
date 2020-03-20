@@ -33,11 +33,10 @@ public class QuickSort {
                 int temp = array[i];
                 array[i] = array[j];
                 array[j] = temp;
-            }        }
+            }
+        }
         array[pivot] = array[i];
         array[i] = p;
-
-
         /*
             这里传参是每个小分区的左右区间。
          */

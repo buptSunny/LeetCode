@@ -5,28 +5,31 @@ package LeetCode.Offer;
  */
 public class offer11 {
     public static void main(String[] args) {
-        int [] arrays = {7,8,9,10,11,12,14,15,1,1,2,4,5,6};
-        int low = 0;
-        int high = arrays.length-1;
+        int [] numbers = {10,1,10,10,10};
+        // * 逆序对为最小数字
+        // * 与right比较，大于，小于，等于 三种情况。
+        int left = 0;
+        int right = numbers.length-1;
         int mid = 0;
-        while(low < high){
-            mid = (high + low)/2;
-            if(arrays[mid]<arrays[mid-1]&&arrays[mid]<arrays[mid+1]){
-                System.out.println(mid);
+        while(left<=right){
+            mid = (left+right)/2;
+            if(mid+1<=right&&numbers[mid]>numbers[mid+1]){
+                System.out.println(numbers[mid+1]);
                 break;
             }
-            if(arrays[mid]<arrays[low]){
-                high = mid;
-            }
-            else if(arrays[mid]>arrays[high]){
-                low = mid+1;
-            }
-            else{
-                System.out.println(low);
+            if(mid-1>=left&&numbers[mid]<numbers[mid-1]){
+                System.out.println(numbers[mid]);
                 break;
+            }
+            if(numbers[mid]>numbers[right]){
+                left = mid+1;
+            }
+            else if(numbers[mid]<numbers[right]){
+                right = mid-1;
+            }else if(numbers[mid]==numbers[right]){
+                right -= 1;
             }
         }
-        System.out.println(arrays[high]);
-    }
-}
+        System.out.println(numbers[mid]);
+}}
 

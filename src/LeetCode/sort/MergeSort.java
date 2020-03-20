@@ -3,14 +3,17 @@ package LeetCode.sort;
 
 import java.util.Arrays;
 
+
+
+/*
+    利用辅助数组作为合过程的临时存储数组。
+ */
 public class MergeSort {
     public static void main(String[] args) {
         int[] array = {1,3,7,2,4,3,9,6,5};
         int[] temp = new int[array.length];
         mergeSort(array,temp,0,array.length-1);
-        for(int i:array){
-            System.out.println(i);
-        }
+        System.out.println(Arrays.toString(array));
     }
     private static void mergeSort(int[] nums, int[] temp, int left, int right) {
 
@@ -48,6 +51,6 @@ public class MergeSort {
         //把辅助数组复制到原数组
         for(int i = 0; i < numElements; i++,rightEnd--) {
             nums[rightEnd] = temp[rightEnd];
-    }
+        }
     }
 }

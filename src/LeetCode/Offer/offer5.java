@@ -8,11 +8,14 @@ public class offer5 {
         StringBuilder sbn = new StringBuilder();
         for(int i = 0;i < sb.length();i++){
             if(sb.charAt(i)==' '){
-                sbn.append("%");
+                sbn.append("%20");
             }else{
                 sbn.append(sb.charAt(i));
             }
         }
+
+
+
 
         System.out.println(sbn.toString());
     }

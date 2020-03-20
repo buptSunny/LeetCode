@@ -2,11 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8b23277-05c3-4314-905b-753812450a32" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/practise/singleton/Singleton1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practise/singleton/Singleton2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practise/singleton/Singleton3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practise/singleton/Singleton4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/Offer/solution1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/sort/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/sort/FastSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/sort/HeapSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/sort/QuickSortByStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practise/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practise/offer/offer6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practise/singleton/RemoveNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/LC/Lc33.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/LC/Lc33.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/LC/Lc81.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/LC/Lc81.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/Offer/Solution1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/Offer/Solution1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/Offer/offer11.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/Offer/offer11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/Offer/offer5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/Offer/offer5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/Offer/offer7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/Offer/offer7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/binaryTree/PreTraversal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/binaryTree/PreTraversal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/sort/BubbleSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/sort/BubbleSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/sort/MergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/sort/MergeSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/sort/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/LeetCode/sort/QuickSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/Offer/offer11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Offer/offer11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/Offer/offer13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Offer/offer13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/Offer/offer5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Offer/offer5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/Offer/offer7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Offer/offer7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/binaryTree/PreTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/binaryTree/PreTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/sort/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/sort/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/sort/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/sort/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/sort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/sort/QuickSort.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +56,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -52,6 +75,9 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="D:/黑马/黑马java课程赠品(116.09G)/01.讲义+笔记+资料/阶段03-6.项目【企业权限管理系统】" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -63,6 +89,15 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="LeetCode.Offer" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="practise.singleton" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\Java\LeetCode\src\LeetCode\Offer" />
     </key>
@@ -79,13 +114,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Lc81">
-    <configuration name="Lc77" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.LC.Lc77" />
+  <component name="RunManager" selected="Application.offer13">
+    <configuration name="FastSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.sort.FastSort" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LeetCode.LC.*" />
+          <option name="PATTERN" value="LeetCode.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lc79" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.LC.Lc79" />
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.sort.MergeSort" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LeetCode.LC.*" />
+          <option name="PATTERN" value="LeetCode.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +141,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lc81" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.LC.Lc81" />
+    <configuration name="QuickSortByStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.sort.QuickSortByStack" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LeetCode.LC.*" />
+          <option name="PATTERN" value="LeetCode.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +154,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NetEase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.LC.NetEase" />
+    <configuration name="offer11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.Offer.offer11" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LeetCode.LC.*" />
+          <option name="PATTERN" value="LeetCode.Offer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,12 +167,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProxyAoP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.ProxyTest.ProxyAoP" />
+    <configuration name="offer13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.Offer.offer13" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LeetCode.ProxyTest.*" />
+          <option name="PATTERN" value="LeetCode.Offer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,19 +181,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Lc77" />
-      <item itemvalue="Application.Lc79" />
-      <item itemvalue="Application.ProxyAoP" />
-      <item itemvalue="Application.NetEase" />
-      <item itemvalue="Application.Lc81" />
+      <item itemvalue="Application.MergeSort" />
+      <item itemvalue="Application.QuickSortByStack" />
+      <item itemvalue="Application.FastSort" />
+      <item itemvalue="Application.offer11" />
+      <item itemvalue="Application.offer13" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Lc81" />
-        <item itemvalue="Application.Lc79" />
-        <item itemvalue="Application.NetEase" />
-        <item itemvalue="Application.ProxyAoP" />
-        <item itemvalue="Application.Lc77" />
+        <item itemvalue="Application.offer13" />
+        <item itemvalue="Application.offer11" />
+        <item itemvalue="Application.QuickSortByStack" />
+        <item itemvalue="Application.FastSort" />
+        <item itemvalue="Application.MergeSort" />
       </list>
     </recent_temporary>
   </component>
@@ -214,8 +249,19 @@
       <workItem from="1583888532713" duration="43000" />
       <workItem from="1583936516586" duration="456000" />
       <workItem from="1584182121814" duration="483000" />
-      <workItem from="1584323159507" duration="3442000" />
+      <workItem from="1584323159507" duration="9607000" />
+      <workItem from="1584525398942" duration="3310000" />
+      <workItem from="1584534200846" duration="3675000" />
+      <workItem from="1584688162638" duration="14539000" />
     </task>
+    <task id="LOCAL-00001" summary="&quot;update practise day 0316&quot;">
+      <created>1584344499358</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584344499358</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,14 +280,13 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;update practise day 0316&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;update practise day 0316&quot;" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/LeetCode/sort/QuickSort.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/LeetCode/Offer/Lc34.java</url>
           <line>6</line>
@@ -256,6 +301,11 @@
           <url>file://$PROJECT_DIR$/src/LeetCode/LC/Lc34.java</url>
           <line>24</line>
           <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LeetCode/Offer/offer13.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="25" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
