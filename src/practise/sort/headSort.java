@@ -1,8 +1,8 @@
-package LeetCode.sort;
+package practise.sort;
 
 import java.util.Arrays;
 
-class HeadSort {
+public class headSort {
     public static void main(String[] args) {
         int[] array = {1, 3, 7, 2, 4, 9, 6, 5};
         heapSort(array, 0, array.length - 1);

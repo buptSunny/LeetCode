@@ -1,14 +1,20 @@
 package LeetCode.Offer;
 
+import com.sun.deploy.util.StringUtils;
+
 public class offer20 {
     public static void main(String[] args) {
-        char[] str = {1,5,4,5};
+        char[] str = {1};
         Boolean flag = isNumeric(str);
         System.out.println(flag);
     }
 
     public static boolean isNumeric(char[] str) {
-
+        String s = "1 ";
+        while(s.endsWith(" ")){
+            s = s.substring(0,s.length()-1);
+        }
+        System.out.println(s);
         //判断数据合理
         if(str == null){
             return false;
@@ -52,8 +58,11 @@ public class offer20 {
                 continue;
             }
             //如果以上符号都不是，在判断是不是其他字符
-            if(str[i] > 57 || str[i] < 48)
+            if(str[i] > '9' || str[i] < '0')
+                System.out.println('1'>'9');
+            System.out.println('1'<'0');
                 return false;
+
         }
         return true;
     }

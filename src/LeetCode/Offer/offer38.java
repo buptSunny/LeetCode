@@ -6,7 +6,11 @@ public class offer38 {
     public static void main(String[] args) {
         String[] strs = {"a","b","c"};
         int start = 0;
-        permutations(strs,start);
+        String s = "abc";
+        char[] a= s.toCharArray();
+        System.out.println(s);
+        System.out.println();
+        //permutations(strs,start);
     }
 
     private static void permutations(String[] strs, int start) {

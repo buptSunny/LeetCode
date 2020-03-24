@@ -23,37 +23,29 @@ public class offer24 {
         Node res = reverseListNode(Head);
         }
 
-    public static Node reverseListNode(Node head){
-       if(head==null){
-           return head;
-       }
-       Node pre = head;
-       Node cur = head.next;
-       Node curN = null;
-       pre.next = null;
-       if(cur.next!=null) {
-           curN = cur.next;
-       }
-       else{
-           cur.next = head;
-           return cur;
-       }
 
+
+    public ListNode reverseList(ListNode head) {
+
+        ListNode pre = null;
+        ListNode cur = head;
+        if(head==null){
+            return head;
+        }
+        ListNode curN = head.next;
         while(cur!=null){
             cur.next = pre;
-
             pre = cur;
             cur = curN;
-            if(cur!=null)
-                {
-                curN = cur.next;}
-        }
-
-        while(pre!=null){
-            System.out.println(pre.data);
-            pre = pre.next;
+            if(curN!=null){
+                curN = curN.next;
+            }
         }
         return pre;
+    }
 
+
+    private static Node reverseListNode(Node head) {
+        return head;
     }
 }

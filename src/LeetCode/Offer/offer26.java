@@ -5,27 +5,12 @@ import java.util.Stack;
 public class offer26{
     public static void main(String[] args) {
         TreeNode h1 = new TreeNode(8);
-        TreeNode h2 = new TreeNode(8);
-        TreeNode h3 = new TreeNode(7);
-        TreeNode h4 = new TreeNode(9);
-        TreeNode h5 = new TreeNode(2);
-        TreeNode h6 = new TreeNode(4);
-        TreeNode h7 = new TreeNode(7);
 
         TreeNode T1 = new TreeNode(8);
-        TreeNode T2 = new TreeNode(9);
-        TreeNode T3 = new TreeNode(2);
 
-        T1.left = T2;
-        T1.right = T3;
 
-        h1.left = h2;
-        h1.right = h3;
-        h2.left = h4;
-        h2.right = h5;
-        h5.left = h6;
-        h5.right = h7;
-        Boolean res = IsSameTrue(h2,T1);
+
+        Boolean res = IsSameTrue(h1,T1);
         System.out.println(res);
     }
 

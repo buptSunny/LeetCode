@@ -76,4 +76,44 @@ public class offer28 {
         return l1;
 
     }
+
+
+    /**
+     * Definition for a binary tree node.
+     * public class TreeNode {
+     *     int val;
+     *     TreeNode left;
+     *     TreeNode right;
+     *     TreeNode(int x) { val = x; }
+     * }
+     * 一次遍历的更好解法；
+     */
+    class Solution {
+        public boolean isSymmetric(TreeNode root) {
+            TreeNode dcRoot = root;
+            Stack<TreeNode> s1 = new Stack();
+            Stack<TreeNode> s2 = new Stack();
+            while(!s1.isEmpty()||root!=null){
+                while(root!=null){
+                    s1.push(root);
+                    s2.push(dcRoot);
+                    if(root==null&&dcRoot!=null||root!=null&&dcRoot==null){
+                        return false;
+                    }
+                    if(root!=null&&dcRoot!=null&&root.value!=dcRoot.value){
+                        return false;
+                    }
+                    root = root.left;
+                    dcRoot = dcRoot.right;
+                }
+                if(!s1.isEmpty()){
+                    root = s1.pop();
+                    root = root.right;
+                    dcRoot = s2.pop();
+                    dcRoot = dcRoot.left;
+                }
+            }
+            return true;
+        }
+    }
 }

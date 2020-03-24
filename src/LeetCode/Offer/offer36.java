@@ -22,7 +22,6 @@ public class offer36 {
         while(res!=null){
             res = res.left;
         }
-
         while(res!=null){
             res = res.right;
             if(res!=null){
@@ -32,10 +31,9 @@ public class offer36 {
 
 
     }
-
     private static TreeNode Convert(TreeNode h1) {
         ConvertSub(h1);
-        return end;
+        return head;
     }
     /*
         实际上类似于中序遍历二叉树，只不过二叉树是打印节点，而此处是让该节点与前一个节点连接形成双向链表。

@@ -53,4 +53,30 @@ public class offer31 {
         }
 
     }
+
+
+    class Solution {
+        public boolean validateStackSequences(int[] pushed, int[] popped) {
+
+            Stack<Integer> s = new Stack<>();
+            int count = 0;
+            for(int i=0;i<popped.length;i++){
+                while(count<pushed.length){
+                    if(!s.isEmpty()&&s.peek()==popped[i]){
+                        break;
+                    }
+                    s.push(pushed[count]);
+                    count++;
+                }
+                if(s.peek()==popped[i]){
+                    s.pop();
+                }
+            }
+            if(!s.isEmpty()){
+                return false;
+            }else{
+                return true;
+            }
+        }
+    }
 }
